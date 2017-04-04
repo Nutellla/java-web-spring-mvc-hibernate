@@ -118,7 +118,7 @@
         </tr>
         <tr>
             <td>
-                <form:label path="price">
+                <form:label path="bookPrice">
                     <spring:message text="Price"/>
                 </form:label>
             </td>
