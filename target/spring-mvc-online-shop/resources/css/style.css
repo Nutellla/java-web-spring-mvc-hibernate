@@ -129,7 +129,7 @@ ul.bottom-icons li {
 ul.bottom-icons li a {
   		color: #fff;
   		  vertical-align: -webkit-baseline-middle;
-  		   
+
 }
 ul.bottom-icons li:hover {
 	padding: 16px 10px 0px 10px;
@@ -322,3 +322,4 @@ a.gp {
 	ul.bottom-icons li:hover {
 	  padding: 16px 6px 0px 10px;
 	}
+}
