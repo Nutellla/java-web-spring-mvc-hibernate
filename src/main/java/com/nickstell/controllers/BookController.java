@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -37,6 +38,28 @@ public class BookController {
         }
 
         return "redirect:/books";
+    }
+
+    @RequestMapping("/remove/{id}")
+    public String removeBook(@PathVariable("id") int id){
+        this.bookService.removeBook(id);
+
+        return "redirect:/books";
+    }
+
+    @RequestMapping("edit/{id}")
+    public String editBook(@PathVariable("id") int id, Model model){
+        model.addAttribute("book", this.bookService.getBookById(id));
+        model.addAttribute("listBooks", this.bookService.getListBooks());
+
+        return "books";
+    }
+
+    @RequestMapping("bookdata/{id}")
+    public String bookData(@PathVariable("id") int id, Model model){
+        model.addAttribute("book", this.bookService.getBookById(id));
+
+        return "bookdata";
     }
 
 }

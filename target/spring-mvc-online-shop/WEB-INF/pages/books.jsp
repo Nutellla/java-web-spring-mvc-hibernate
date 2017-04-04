@@ -93,6 +93,7 @@
                 </td>
                 <td>
                     <form:input path="id" readonly="true" size="8" disabled="true"/>
+                    <form:hidden path="id"/>
                 </td>
             </tr>
         </c:if>
@@ -123,7 +124,7 @@
                 </form:label>
             </td>
             <td>
-                <form:input path="bookPrice"/>
+                <form:input path="price"/>
             </td>
         </tr>
         <tr>
