@@ -1,4 +1,4 @@
-package com.nickstell.entities;
+package com.nickstell.model;
 
 import javax.persistence.*;
 

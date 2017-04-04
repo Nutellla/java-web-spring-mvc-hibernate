@@ -1,7 +1,7 @@
 package com.nickstell.services;
 
 
-import com.nickstell.entities.Book;
+import com.nickstell.model.Book;
 
 import java.util.List;
 

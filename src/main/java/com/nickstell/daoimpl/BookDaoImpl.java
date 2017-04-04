@@ -1,7 +1,7 @@
 package com.nickstell.daoimpl;
 
 import com.nickstell.dao.BookDao;
-import com.nickstell.entities.Book;
+import com.nickstell.model.Book;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.slf4j.Logger;

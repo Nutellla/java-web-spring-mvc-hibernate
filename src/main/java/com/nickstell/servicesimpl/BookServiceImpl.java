@@ -1,7 +1,7 @@
 package com.nickstell.servicesimpl;
 
 import com.nickstell.dao.BookDao;
-import com.nickstell.entities.Book;
+import com.nickstell.model.Book;
 import com.nickstell.services.BookService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

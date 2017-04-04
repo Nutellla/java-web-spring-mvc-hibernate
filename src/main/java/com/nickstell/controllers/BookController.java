@@ -1,6 +1,6 @@
 package com.nickstell.controllers;
 
-import com.nickstell.entities.Book;
+import com.nickstell.model.Book;
 import com.nickstell.services.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
