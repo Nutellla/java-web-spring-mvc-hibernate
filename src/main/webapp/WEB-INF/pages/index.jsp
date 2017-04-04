@@ -15,10 +15,10 @@
 <link href="//fonts.googleapis.com/css?family=Abril+Fatface&amp;subset=latin-ext" rel="stylesheet">
 <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
 <!-- font-awesome icons -->
-<link href="css/font-awesome.css" rel="stylesheet"> 
+<link href="../resources/css/font-awesome.css" rel="stylesheet">
 <!-- //font-awesome icons -->
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<script src="js/jquery-2.1.4.min.js"></script>
+<link href="../resources/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<script src="../resources/js/jquery-2.1.4.min.js"></script>
     <script type="text/javascript">
         $(function () {
 
@@ -174,7 +174,7 @@
 		<p> © 2017 Slide Multi Forms . All rights reserved | Design by <a href="http://w3layouts.com/" target="_blank">W3layouts</a></p>
 	</div>
 	<!-- //copyright -->
-	<script type="text/javascript" src="js/hubslider.js"></script>
+	<script type="text/javascript" src="../resources/js/hubslider.js"></script>
 </div>
 </body>
 </html>
